@@ -161,6 +161,17 @@ header {
 	&:last-child { margin-right: 0; }
 	
 }
+.column {
+	flex: 1;
+	border: 1px solid gray;
+	margin: 2px;
+	padding: 10px;
+	&:first-child { margin-left: 0; }
+	&:last-child { margin-right: 0; }
+
+
+
+
 
 .column2 {
 	flex: 1;
@@ -172,12 +183,20 @@ header {
 	
 }
 
-
+.column3 {
+	flex: 1;
+	border: 2px dotted black;
+	margin: 2px;
+	padding: 10px;
+	&:first-child { margin-left: 0; }
+	&:last-child { margin-right: 0; }
+	
+}
 
 
 
 footer {
-	padding: 0 15px;
+	padding: 0 10px;
 }
 
 
