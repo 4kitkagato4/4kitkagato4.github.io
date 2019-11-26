@@ -1,1 +1,16 @@
-/*Test*/
+/*Style menu class*/
+.menu{
+    background-color: #3399cc;
+}
+
+/*Style limit class*/
+.limit{
+    margin: auto;
+    width: 75%;
+}
+
+.info{
+    background-color: #dddddd;
+    border-radius: 1rem;
+    padding: 2rem;
+}
