@@ -1,16 +1,48 @@
+body{
+    margin: 0;
+}
+
 /*Style menu class*/
 .menu{
-    background-color: #3399cc;
+    margin-top: 0;
+    background-color: #eeeeee;
+    list-style: none;
+    padding: 1.5rem;
+    text-align: right;
 }
 
-/*Style limit class*/
-.limit{
-    margin: auto;
-    width: 75%;
+nav {
+    /*Drop Shadow from W3Schools https://www.w3schools.com/cssref/css3_pr_box-shadow.asp*/
+    box-shadow: 0 0.5rem 0.5rem 0 #aaaaaa,0 0.5rem 0.5rem 0 #999999;
 }
 
-.info{
-    background-color: #dddddd;
-    border-radius: 1rem;
-    padding: 2rem;
+.menu li{
+    display: inline;
+}
+.menu li a{
+    text-decoration: none;
+    padding: 1rem;
+    color: #333333;
+    font-size: 1.25rem;
+    border-radius: 0.5rem ;
+}
+
+.float{
+    float: left;
+}
+
+.menu li a:hover{
+    background-color: #cccccc;
+}
+
+/*Media Queries for Responsiveness from https://css-tricks.com/css-media-queries/*/
+
+@media all and (max-width: 725px){
+    .float{
+        float: none;
+    }
+    .menu li a{
+        text-align: center;
+        display: block;
+    }
 }
