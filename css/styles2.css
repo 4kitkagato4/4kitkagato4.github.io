@@ -96,6 +96,10 @@ footer a{
     margin-top: 1.5rem;
 }
 
+.copywrite div{
+    padding-bottom: 0.5rem;
+}
+
 /*Media Queries for Responsiveness from https://css-tricks.com/css-media-queries/*/
 
 @media all and (max-width: 725px){
