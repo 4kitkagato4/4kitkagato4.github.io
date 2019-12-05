@@ -111,7 +111,7 @@ footer {
 
 
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1200px) {
   .columns .column {
 		margin-bottom: 5px;
     flex-basis: 40%;
