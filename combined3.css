@@ -1,5 +1,117 @@
 
+/*  css code modifed by james Albert from w3schools.com */
 
+
+body {
+  background-color: white;
+  }
+
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* { box-sizing: border-box; }
+
+body { 
+  font-family: 'Open Sans', sans-serif;
+  color: #666;
+}
+
+
+
+h1 {
+  text-align: center;
+   background-color: #278183;
+   font-size: 22px;
+	font-weight: bold;
+	font-family: "arial";
+	color: white;	
+	padding: 8px;
+}
+
+
+
+
+h2 {
+  text-align: center;
+   background-color: white;
+   font-size: 22px;
+	font-weight: bold;
+	font-family: "Open Sans";
+	color: black;		
+	text-decoration: none;
+	}
+	
+	h3 {
+    font-weight: bold;
+	font-size: 18px;
+    color: black;
+	font-family: "arial";
+}
+
+	
+	
+	
+	
+
+h4 {
+  text-align: center;
+   background-color: white;
+   font-size: 22px;
+	font-weight: bold;
+	font-family: "Open Sans";
+	color: red;		
+	text-decoration: none;
+	}
+
+h5 {
+    font-size: 14px;
+    color: black;	
+	font-family: "arial";
+	font-weight: bold;
+	 text-align: left;
+	}
+	
+	
+h6 {
+  color: #000000;
+   text-align: left;
+	font-weight: bold;
+	font-family: "arial";
+	font-size: 18px;
+		}
+	
+	
+	
+
+.navbar {
+  width: 100%;
+  background-color: white;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #white;
+}
+
+.active {
+  background-color: $278183;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+/*  css code modifed by james Albert from w3schools.com */
 
 
 
@@ -84,7 +196,66 @@ footer {
   
   
   
+   /*  css code modifed by james Albert from w3schools.com */
   
+  
+p {
+    font-size: 18px;
+	font-weight: bold;
+	}
+	
+.normaltext {
+    background-color: #000000;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;	
+	padding: 5px;
+	text-align: center;
+}
+
+
+.secondary {
+    
+	font-size: 12px;
+	font-weight: bold;
+	color: green;	
+	padding: 2px;
+	text-align: center;
+}
+
+
+
+
+a:link {
+  color: #008000;
+  font-weight: bold;
+   padding: 5px;
+  
+}
+
+/* visited link */
+a:visited {
+  color: #008080;
+  font-weight: bold;
+   padding: 5px;
+  
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+  font-weight: bold;
+   padding: 5px;
+  
+}
+
+/* selected link */
+a:active {
+  color: blue;
+   padding: 5px;
+ 
+}
+
 
 /*  css code modifed by james Albert from w3schools.com */
 
