@@ -42,6 +42,16 @@ nav {
     box-shadow: 0 0.5rem 0.5rem 0 #aaaaaa,0 0.5rem 0.5rem 0 #999999;
 }
 
+footer{
+    text-align: center;
+    background-color: #eeeeee;
+    box-shadow:  0 0 0.5rem 0 #aaaaaa, 0 0 0.5rem 0 #999999;
+    color: #333333;
+    padding: 0.75rem;
+    width: 100%;
+    font-size: 0.8rem;
+}
+
 /*Media Queries for Responsiveness from https://css-tricks.com/css-media-queries/*/
 
 @media all and (max-width: 725px){
@@ -72,6 +82,9 @@ nav {
 	max-width: 12000px;
 	width: 95%;
 	margin: 20px auto;
+    /*Ensure Footer is at the bottom of the screen even when content can't push it to the bottom -Nicholas*/
+    /*Referenced from https://css-tricks.com/couple-takes-sticky-footer/*/
+    min-height: calc(100vh - 9.5rem);
 }
 
 .columns {
@@ -102,12 +115,6 @@ nav {
 }
 
 
-
-
-
-footer {
-	padding: 0 15px;
-}
 
 
 
