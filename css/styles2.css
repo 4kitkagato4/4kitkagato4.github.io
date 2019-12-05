@@ -47,9 +47,53 @@ footer{
     background-color: #eeeeee;
     box-shadow:  0 0 0.5rem 0 #aaaaaa, 0 0 0.5rem 0 #999999;
     color: #333333;
+    width: 100%;
+    font-size: 0.85rem;
+}
+.footer_top{
+    text-align: center;
+    background-color: #eeeeee;
+    box-shadow:  0 0 0.5rem 0 #aaaaaa, 0 0 0.5rem 0 #999999;
+    color: #333333;
     padding: 0.75rem;
     width: 100%;
-    font-size: 0.8rem;
+    font-size: 0.95rem;
+}
+.footer_bottom{
+    background-color: #cccccc;
+    width: 100%;
+    padding: 2rem 2rem 0.5rem 2rem;
+}
+.footer_menu{
+    list-style: none;
+    text-align: left;
+}
+.footer_menu li{
+    padding: 0.25rem;
+}
+footer a{
+    color: #333333;
+    text-decoration: none;
+    padding-left: 32.5rem;
+}
+.footer_left{
+    float: left;
+}
+.footer_right{
+    padding-top: 2.5rem;
+    padding-bottom: 0rem;
+}
+
+.disclaimer{
+    margin-top: 1.5rem;
+    text-align: center;
+    border-top: #333333 0.15rem solid;
+}
+
+.copywrite{
+    border-top: #eeeeee 0.15rem solid;
+    padding-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 /*Media Queries for Responsiveness from https://css-tricks.com/css-media-queries/*/
@@ -63,6 +107,7 @@ footer{
         display: block;
     }
 }
+
 /*End Of Nicholas' CSS */
 
 /*  css code modifed by james Albert from w3schools.com */
