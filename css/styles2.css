@@ -70,18 +70,18 @@ footer{
 }
 .footer_menu li{
     padding: 0.25rem;
+    margin-left: 31.5rem;
 }
 footer a{
     color: #333333;
     text-decoration: none;
-    padding-left: 32.5rem;
 }
 .footer_left{
     float: left;
 }
 .footer_right{
     padding-top: 2.5rem;
-    padding-bottom: 0rem;
+    padding-bottom: 0;
 }
 
 .disclaimer{
