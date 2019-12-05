@@ -37,6 +37,11 @@ nav {
     background-color: #cccccc;
 }
 
+/*Add shadow to javascript slider*/
+.banner-slider{
+    box-shadow: 0 0.5rem 0.5rem 0 #aaaaaa,0 0.5rem 0.5rem 0 #999999;
+}
+
 /*Media Queries for Responsiveness from https://css-tricks.com/css-media-queries/*/
 
 @media all and (max-width: 725px){
