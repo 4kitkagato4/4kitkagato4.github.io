@@ -79,7 +79,7 @@ footer{
 
 .wrapper {
 	padding: 5px;
-	max-width: 12000px;
+	max-width: 1200px;
 	width: 95%;
 	margin: 20px auto;
     /*Ensure Footer is at the bottom of the screen even when content can't push it to the bottom -Nicholas*/
@@ -96,7 +96,6 @@ footer{
 
 .column {
 	flex: 1;
-	border: 1px solid gray;
 	margin: 2px;
 	padding: 10px;
 	&:first-child { margin-left: 0; }
