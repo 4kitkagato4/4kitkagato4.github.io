@@ -149,6 +149,10 @@ p, a{
 .spacing{
     padding-top: 1.5rem;
 }
+
+.shrink{
+    width: 99%;
+}
 /*End Of Nicholas' CSS */
 
 /*  css code modifed by james Albert from w3schools.com */
