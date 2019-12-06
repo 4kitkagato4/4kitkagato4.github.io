@@ -165,6 +165,12 @@ p, a{
 .left{
     text-align: left;
 }
+
+.strip{
+    list-style: none;
+    font-size: 1.15rem;
+    padding-bottom: 1.5rem;
+}
 /*End Of Nicholas' CSS */
 
 /*  css code modifed by james Albert from w3schools.com */
