@@ -118,9 +118,6 @@ footer a {
     padding-bottom: 0.5rem;
 }
 
-.underline{
-    text-decoration: black underline;
-}
 /*Media Queries for Responsiveness from https://css-tricks.com/css-media-queries/*/
 
 @media all and (max-width: 725px) {
