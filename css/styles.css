@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 /*Start Of Nicholas' CSS*/
 body {
     font-family: "Arial", "Arial Narrow", sans-serif;
@@ -152,8 +153,6 @@ p, a{
 
 /*  css code modifed by james Albert from w3schools.com */
 
-
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 * {
     box-sizing: border-box;
