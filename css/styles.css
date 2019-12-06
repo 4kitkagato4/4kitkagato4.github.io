@@ -13,6 +13,7 @@ body {
     text-align: right;
 }
 
+/*Styles for nav section*/
 nav {
     /*Drop Shadow from W3Schools https://www.w3schools.com/cssref/css3_pr_box-shadow.asp*/
     box-shadow: 0 0.5rem 0.5rem 0 #aaaaaa, 0 0.5rem 0.5rem 0 #999999;
@@ -20,10 +21,12 @@ nav {
     background-color: #eeeeee;
 }
 
+/*Styles for list items in menu class*/
 .menu li {
     display: inline;
 }
 
+/*Styles for anchor tags in list items in menu class*/
 .menu li a {
     text-decoration: none;
     padding: 1rem;
@@ -32,13 +35,17 @@ nav {
     border-radius: 0.5rem;
 }
 
+/*Styles for float class*/
 .float {
     float: left;
 }
 
+/*When a list item in menu is hovered over*/
 .menu li a:hover {
     color: #cccccc;
 }
+
+/*Styles for menu text*/
 .text_menu{
     margin-top: 0.5rem;
 }
@@ -48,6 +55,7 @@ nav {
     box-shadow: 0 0.5rem 0.5rem 0 #aaaaaa, 0 0.5rem 0.5rem 0 #999999;
 }
 
+/*Footer styles*/
 footer {
     text-align: center;
     background-color: #eeeeee;
@@ -57,6 +65,7 @@ footer {
     font-size: 0.85rem;
 }
 
+/*Styles for top part of footer*/
 .footer_top {
     text-align: center;
     background-color: #eeeeee;
@@ -67,33 +76,39 @@ footer {
     font-size: 0.95rem;
 }
 
+/*Styles for bottom part of footer*/
 .footer_bottom {
     background-color: #cccccc;
     width: 100%;
     padding: 1rem 2rem 0.5rem 2rem;
 }
 
+/*Styles for footer menu*/
 .footer_menu {
     list-style: none;
     text-align: left;
 }
 
+/*Styles for list items in footer menu*/
 .footer_menu li {
     padding: 0.25rem;
     text-align: center;
 }
 
+/*Styles for links in footer*/
 footer a {
     color: #333333;
     text-decoration: none;
 }
 
+/*Styles for footer_left class*/
 .footer_left {
     text-align: center;
     width: 49%;
     float: left;
 }
 
+/*Stlyes for footer_right class*/
 .footer_right {
     float: right;
     text-align: center;
@@ -102,12 +117,14 @@ footer a {
     padding-bottom: 0;
 }
 
+/*Styles for disclaimer class*/
 .disclaimer {
     margin-top: 1.5rem;
     text-align: center;
     border-top: #333333 0.15rem solid;
 }
 
+/*Styles for copywrite class*/
 .copywrite {
     border-top: #eeeeee 0.15rem solid;
     padding-top: 2rem;
@@ -115,63 +132,73 @@ footer a {
     text-align: center;
 }
 
+/*Styles for div in copywrite*/
 .copywrite div {
     padding-bottom: 0.5rem;
 }
 
 /*Media Queries for Responsiveness from https://css-tricks.com/css-media-queries/*/
-
 @media all and (max-width: 725px) {
+    /*remove float for smaller screens*/
     .float {
         float: none;
     }
-
+    /*Responsive menu*/
     .menu li a {
         text-align: center;
         display: block;
     }
 }
+
+/*Styles for images*/
 .image img{
     max-width:100%;
     height:auto;
 }
 
-
+/*Styles for links*/
 a{
     color: #333333;
     text-decoration: none;
 }
 
+/*styles for link*/
 p, a{
     text-align: center;
 }
 
+/*Class to help space items*/
 .spacing{
     padding-top: 1.5rem;
 }
 
+/*Class to shrink link images on index page*/
 .shrink{
     width: 100%;
 }
 
+/*Align testimonial paragraphs*/
 .testimonials p{
     text-align: left;
 }
 
+/*Styles to center text*/
 .center{
     text-align: center;
 }
 
+/*Class to align text to the left*/
 .left{
     text-align: left;
 }
-
+/*Styles for strip class*/
 .strip{
     list-style: none;
     font-size: 1.15rem;
     padding-bottom: 1.5rem;
 }
 /*End Of Nicholas' CSS */
+
 
 /*  css code modifed by james Albert from w3schools.com */
 
