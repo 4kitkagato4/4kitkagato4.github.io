@@ -7,15 +7,16 @@ body {
 /*Style menu class*/
 .menu {
     margin-top: 0;
-    background-color: #eeeeee;
     list-style: none;
-    padding: 1.5rem;
+    padding: 0.25rem 1.5rem 0 1.5rem;
     text-align: right;
 }
 
 nav {
     /*Drop Shadow from W3Schools https://www.w3schools.com/cssref/css3_pr_box-shadow.asp*/
     box-shadow: 0 0.5rem 0.5rem 0 #aaaaaa, 0 0.5rem 0.5rem 0 #999999;
+    padding-bottom: 0.25rem;
+    background-color: #eeeeee;
 }
 
 .menu li {
@@ -35,7 +36,10 @@ nav {
 }
 
 .menu li a:hover {
-    background-color: #cccccc;
+    color: #cccccc;
+}
+.text_menu{
+    margin-top: 0.5rem;
 }
 
 /*Add shadow to javascript slider*/
