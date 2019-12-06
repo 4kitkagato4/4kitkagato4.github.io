@@ -65,7 +65,7 @@ footer {
 .footer_bottom {
     background-color: #cccccc;
     width: 100%;
-    padding: 2rem 2rem 0.5rem 2rem;
+    padding: 1rem 2rem 0.5rem 2rem;
 }
 
 .footer_menu {
@@ -75,7 +75,7 @@ footer {
 
 .footer_menu li {
     padding: 0.25rem;
-    margin-left: 31.5rem;
+    text-align: center;
 }
 
 footer a {
@@ -84,10 +84,15 @@ footer a {
 }
 
 .footer_left {
+    text-align: center;
+    width: 49%;
     float: left;
 }
 
 .footer_right {
+    float: right;
+    text-align: center;
+    width: 49%;
     padding-top: 2.5rem;
     padding-bottom: 0;
 }
@@ -101,7 +106,8 @@ footer a {
 .copywrite {
     border-top: #eeeeee 0.15rem solid;
     padding-top: 2rem;
-    margin-top: 1.5rem;
+    margin-top: 12rem;
+    text-align: center;
 }
 
 .copywrite div {
