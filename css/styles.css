@@ -153,6 +153,10 @@ p, a{
 .shrink{
     width: 100%;
 }
+
+.testimonials p{
+    text-align: left;
+}
 /*End Of Nicholas' CSS */
 
 /*  css code modifed by james Albert from w3schools.com */
