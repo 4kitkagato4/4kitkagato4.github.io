@@ -142,7 +142,7 @@ p, a{
 	background-color: #ffffff;
     max-width: 100%;
     width: 90%;
-    margin: 20px auto;
+    margin: 0px auto;
     /*Ensure Footer is at the bottom of the screen even when content can't push it to the bottom -Nicholas*/
     /*Referenced from https://css-tricks.com/couple-takes-sticky-footer/*/
     min-height: calc(100vh - 32.25rem);
