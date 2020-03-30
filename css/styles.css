@@ -141,7 +141,7 @@ p, a{
     padding: 0px;
 	background-color: #ffffff;
     max-width: 100%;
-    width: 100%;
+    width: 90%;
     margin: 20px auto;
     /*Ensure Footer is at the bottom of the screen even when content can't push it to the bottom -Nicholas*/
     /*Referenced from https://css-tricks.com/couple-takes-sticky-footer/*/
@@ -152,7 +152,7 @@ p, a{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 .column {
