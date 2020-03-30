@@ -1,0 +1,228 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/*Start Of Nicholas' CSS*/
+body {
+    font-family: "Arial", "Arial Narrow", sans-serif;
+    margin: 0;
+	
+	}
+
+/*Style menu class*/
+.menu {
+    margin-top: 0;
+    list-style: none;
+    padding: 0.25rem 1.5rem 0 1.5rem;
+    text-align: right;
+}
+
+/*Styles for nav section*/
+nav {
+    /*Drop Shadow from W3Schools https://www.w3schools.com/cssref/css3_pr_box-shadow.asp*/
+    box-shadow: 0 0.5rem 0.5rem 0 #aaaaaa, 0 0.5rem 0.5rem 0 #999999;
+    padding-bottom: 0.25rem;
+   background-color: #ff0000;
+}
+
+/*Styles for list items in menu class*/
+.menu li {
+    display: inline;
+}
+
+/*Styles for anchor tags in list items in menu class*/
+.menu li a {
+    text-decoration: none;
+    padding: 1rem;
+    color: #ffffff;
+    font-size: 1.rem;
+    border-radius: 0.5rem;
+}
+
+/*Styles for float class*/
+.float {
+    float: left;
+}
+
+/*When a list item in menu is hovered over*/
+.menu li a:hover {
+    color: #000000;
+}
+
+/*Styles for menu text*/
+.text_menu{
+    margin-top: 0.5rem;
+}
+
+
+
+
+
+
+/*Styles for top part of footer*/
+.footer_full {
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0.75rem;
+    width: 100%;
+    font-size: 0.95rem;
+}
+
+
+
+/*Styles for links in footer*/
+footer a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+
+
+/*Media Queries for Responsiveness from https://css-tricks.com/css-media-queries/*/
+@media all and (max-width: 725px) {
+    /*remove float for smaller screens*/
+    .float {
+        float: none;
+    }
+    /*Responsive menu*/
+    .menu li a {
+        text-align: center;
+        display: block;
+    }
+}
+
+/*Styles for images*/
+.image img{
+    max-width:100%;
+    height:auto;
+}
+/*Styles for links*/
+a{
+    color: #333333;
+    text-decoration: none;
+}
+
+/*styles for link*/
+p, a{
+    text-align: center;
+}
+
+/*Class to help space items*/
+.spacing{
+    padding-top: 1.5rem;
+}
+
+/*Class to shrink link images on index page*/
+.shrink{
+    width: 100%;
+}
+
+
+
+/*Styles to center text*/
+.center{
+    text-align: center;
+}
+
+/*Class to align text to the left*/
+.left{
+    text-align: left;
+}
+/*Styles for strip class*/
+.strip{
+    list-style: none;
+    font-size: 1.15rem;
+    padding-bottom: 1.5rem;
+}
+
+
+
+/*  css code modifed by james Albert from https://dev.to/drews256/ridiculously-easy-row-and-column-layouts-with-flexbox-1k01 */
+
+.wrapper {
+    padding: 0px;
+	background-color: #ffffff;
+    max-width: 100%;
+    width: 100%;
+    margin: 20px auto;
+    /*Ensure Footer is at the bottom of the screen even when content can't push it to the bottom -Nicholas*/
+    /*Referenced from https://css-tricks.com/couple-takes-sticky-footer/*/
+    min-height: calc(100vh - 32.25rem);
+}
+
+.columns {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.column {
+    flex: 1;
+    margin: 2px;
+    padding: 10px;
+
+&
+:first-child {
+    margin-left: 0;
+}
+
+&
+:last-child {
+    margin-right: 0;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .columns .column {
+        margin-bottom: 5px;
+        flex-basis: 40%;
+
+&:nth-last-child(2) {
+     margin-right: 0;
+ }
+
+&:last-child {
+     flex-basis: 100%;
+     margin: 0;
+ }
+}
+
+}
+
+@media screen and (max-width: 680px) {
+    .columns .column {
+        flex-basis: 100%;
+        margin: 0 0 5px 0;
+    }
+}
+
+
+.h4 {
+    text-align: left;
+    color: #ff0000;
+    padding: 0.75rem;
+    width: 300%;
+    font-size: 0.95rem;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
