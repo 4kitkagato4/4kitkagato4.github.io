@@ -138,10 +138,10 @@ p, a{
 /*  css code modifed by james Albert from https://dev.to/drews256/ridiculously-easy-row-and-column-layouts-with-flexbox-1k01 */
 
 .wrapper {
-    padding: 0px;
+    padding: 10px;
 	background-color: #ffffff;
     max-width: 100%;
-    width: 90%;
+    width: 100%;
     margin: 0px auto;
     /*Ensure Footer is at the bottom of the screen even when content can't push it to the bottom -Nicholas*/
     /*Referenced from https://css-tricks.com/couple-takes-sticky-footer/*/
