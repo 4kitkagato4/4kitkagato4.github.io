@@ -6,7 +6,8 @@
 /* Style the body */
 body {
   font-family: Arial;
-  margin: 0;
+  margin: 10;
+   background: #000000;
 }
 
 /* Header/logo Title */
@@ -93,7 +94,7 @@ body {
 /* Sidebar/left column */
 .side {
   flex: 50%;
-  background-color: #grey;
+  background-color: #D9C5A4;
   padding: 15px;
 }
 
