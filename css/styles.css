@@ -100,12 +100,11 @@ footer a {
     }
 }
 
-/*Styles for images*/
-.image
- img{
-    max-width:100%;
-    height:auto;
+.responsiveimage {
+  width: 100%;
+  height: auto;
 }
+
 /*Styles for links*/
 a{
     color: #333333;
@@ -197,26 +196,24 @@ p, a{
      flex-basis: 100%;
      margin: 0;
  }
-}
 
-}
 
 @media screen and (max-width: 680px) {
     .columns .column {
         flex-basis: 100%;
         margin: 0 0 5px 0;
     }
-}
+
 
 
 .h4 {
     text-align: left;
-    color: #ff0000;
+    color: blue;
     padding: 0.75rem;
     width: 300%;
     font-size: 0.95rem;
 
-
+}
 
 
 
