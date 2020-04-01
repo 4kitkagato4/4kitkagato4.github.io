@@ -4,115 +4,74 @@
     <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kawartha Lakes Fire Rescue Smoke and CO Alarm Program </title>
-
-    <!--CSS RESET CDN-->
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.css" rel="stylesheet" type="text/css">
-    <!--Link to Stylesheet-->
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+       <!--Link to Stylesheet-->
+    <link href="css/new.css" rel="stylesheet" type="text/css">
+   
 </head>
 <body>
-<!--Nicholas' Nav Bar -->
-<div class="wrapper">
-<header>
-    <nav>
-        <ul class="menu">
-            <li class="float"><a href="index.html"><img src="images/ftop.png" width="300" height="50" border="0" alt=""></a></li>
-        </ul>
-        <ul class="menu text_menu">
-		     <li><a href="index.html">Home</a></li>
-			 <li><a href="workflow.html">Workflow</a></li>
-            <li><a href="technical.html">Technical Challenges </a></li>
-                       <li><a href="timeline.html">Project Timeline</a></li>
-			 <li><a href="final.html">Final Solution</a></li>
-            
-            
-        </ul>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    </nav>
-</header>
-<img class="responsiveimage" src="images/firebannertop3.png" alt="Firefighters">
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="workflow.html">Workflow Process</a>
+  <a href="technical.html">Technical Challenges & Improvisions</a>
+  <a href="timeline.html">Project Timeline</a>
+  <a href="final.html"> The Final Solution</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
-	<section class="columns">
-
-        <div class="column"><img class="image" src="images/techchallenges.png" alt="Tecnical Challenges">
-				
-		</div>
-
-        <div class="column"> </div>
-
-      
-    </section>
-	
-	
-	
-	<section class="columns">
-
-        <div class="column"> <h3>TASK  </h3>
-		
-				
-		
-
-      
-    </section>
-
-
-
-
-	
-	<section class="columns">
-
-        <div class="column"> <h3>TASK </h3>
-				
-		</div>
-
-       
-
-      
-    </section>
-
-
-
-
-
-	
-	<section class="columns">
-
-        <div class="column"> <h3>TASK </h3>
-				
-		</div>
-
-       
-
-      
-    </section>
-
-
-
-
-
-
-
-
-
-
-<!--Alex's Footer-->
-<footer>
-    <div class="footer_full">
-       
-        <h4>Kawartha Lakes Fire Rescue Smoke and CO Alarm Program </h4>
-		<a href="index.html">Home</a> /
-                <a href="workflow.html">Workflow</a>&nbsp;/
-            <a href="technical.html">Technical Challenges </a>&nbsp;/
-           
-           <a href="timeline.html">Project Timeline</a>&nbsp;/
-			 <a href="final.html">Final Solution</a>&nbsp;/
-		 
-       
-		
-		
     
-</footer>
+
+<!-- The flexible grid (content) -->
+<img class="responsiveimage" src="images/firebannertop5.png" alt="Firefighters"></div>
+
+
+<div class="row">
+<!-- Footer -->
+<div class="side">
+ <div class="h3">info</div>
+
+
+</div>
+<div class="main"> 
+info
+
+
  </div>
+ </div>
+
+
+<div class="long">
+  <div class="h4">Info to flow in here....</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div><script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+
+
 </body>
 </html>
