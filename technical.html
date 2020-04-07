@@ -36,7 +36,7 @@
 
 </div>
 <div class="main"> 
- Challenges and workaround solutions as experienced by this team!
+ <img class="img" src="images/success.png">
 
 
  </div>
@@ -44,13 +44,21 @@
 
 
 <div class="long">
-  <div class="h4">Some include</div>
-<ul class="b">
-	<li>  Arranging meeting time that are good for all</li>
-	<li>  Aquiring Parcel Data for the Project?</li>
-	<li>  Deciding what software would best meet this timeframe   ...ie Geocortex vs Collector.. etc</li>
-	<li>  Data Relationships in ArcMap</li>
-</ul>
+  <div class="h4">Linking To The Survey with Pop Up Issues:</div>
+  <h4>Initial Roadblock</h4>
+  It was initially difficult to get both the link to the survey and the ability to display and edit the "Visited" field in the pop-up. Originally, the link was the only thing visible using a custom attribute display. But the user needed to be able to change the visit status to show which properties had been visited. 
+<img class="img" src="images/popup.png">
+
+
+<h4>Work Around</h4>
+After some investigation into the pop-up configuration settings it was found that you could have a list of attributes and show media at the same time. This became even more useful as you could associate a link with an image, this was the method we ended up using. This added an extra layer of challenge as we wanted to use an image that would give the user some sense of the function, while also respecting copyright and licensing. One of us created a simple logo to use without risking misusing another's work, and then came the issue of uploading the image. Adding an image to a pop-up requires the use of a URL. There was quite a bit of faffing about to figure out how to host the image to be accessed via URL.
+
+<h4>The Solution</h4>
+ In the end the solution was painfully simple. It was uploaded to ArcGIS Online, shared publicly (required to get URL), and the URL was added to the pop-up. 
+  
+  
+  
+  
   
   
   
