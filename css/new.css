@@ -32,7 +32,7 @@ body {
     color: #ff0000;
     padding: 0.75rem;
     width: 100%;
-    font-size: 0.95rem;
+    font-size: 1.45rem;
 }
 
 
@@ -72,7 +72,10 @@ body {
   height: auto;
 }
 
-
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -135,7 +138,7 @@ body {
 
 /* Footer */
 .long {
-  padding: 10px;
+  padding: 20px;
   background: #f2f2f2;
 }
 
