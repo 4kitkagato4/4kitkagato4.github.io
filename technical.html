@@ -84,10 +84,13 @@
 
 
 <h4>Work Around</h4>
-After some investigation into the pop-up configuration settings it was found that you could have a list of attributes and show media at the same time. This became even more useful as you could associate a link with an image, this was the method we ended up using. This added an extra layer of challenge as we wanted to use an image that would give the user some sense of the function, while also respecting copyright and licensing. One of us created a simple logo to use without risking misusing another's work, and then came the issue of uploading the image. Adding an image to a pop-up requires the use of a URL. There was quite a bit of faffing about to figure out how to host the image to be accessed via URL.
+After some investigation into the pop-up configuration settings it was found that you could have a list of attributes and show media at the same time. This became even more useful as you could associate a link with an image, this was the method we ended up using. This added an extra layer of challenge as we wanted to use an image that would give the user some sense of the function, while also respecting copyright and licensing. One of us created a simple logo to use without risking misusing another's work, and then came the issue of uploading the image. Adding an image to a pop-up requires the use of a URL. There was quite a bit of faffing about to figure out how to host the image to be accessed via URL. In the end the solution was painfully simple. It was uploaded to ArcGIS Online, shared publicly (required to get URL), and the URL was added to the pop-up. 
 
+<h4>Testing Hiccup</h4>
+Later testing revealed some issues with the image method. The map in collector was being tested on an android device and when a colleague attempted to test it on an iOS device, it did not behave as expected. They could, however, use the link to open the form if it was a hyperlink. 
+	
 <h4>The Solution</h4>
- In the end the solution was painfully simple. It was uploaded to ArcGIS Online, shared publicly (required to get URL), and the URL was added to the pop-up. 
+ In the end the pop-up was configured to be a custom attribute display with a hyperlink to the form, and text displaying the visit status pulled from the “Visited” field. 
   
   
   
