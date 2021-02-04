@@ -1,0 +1,210 @@
+/* All original css code modifed by james Albert from w3schools.com */
+
+
+body {
+  background-color: white;
+  }
+
+
+.item1 { grid-area: header;
+    background-color: #D1E7D3;
+	font-family: "arial";
+ }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; 
+        background-color: #ffffff;
+}
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+.item6 { grid-area: line; }
+.item7 { grid-area: map;
+background-color: #A7B4AF; }
+.item8 { grid-area: location; 
+background-color: #A7B4AF;}
+.item9 { grid-area: nav; }
+
+.item10 { grid-area: box1a; 
+        background-color: #000000;
+		font-family: "arial";
+	    font-weight: bold;
+		text-align: left;
+		 font-size: 14px;
+		  padding: 5px;
+		  border: 1px;}
+
+.item11 { grid-area: box2a; 
+        background-color: #000000;
+		font-family: "arial";
+	    font-weight: bold;
+		text-align: left;
+		 font-size: 14px;
+		  padding: 5px;
+		  border: 1px;}
+		  
+	.item12 { grid-area: box3a; 
+        background-color: #000000;
+		font-family: "arial";
+	    font-weight: bold;
+		text-align: left;
+		 font-size: 14px;
+		  padding: 5px;
+		  border: 1px;}	  
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+	'menu menu main main right right'
+	'box1a box1a box2a box2a box3a box3a'
+	'footer footer footer footer footer footer'
+	'map map map location location location'
+	'line line line line line line'
+	'nav nav nav nav nav nav'
+	;
+    
+  grid-gap: 2px;
+  background-color: white;
+  padding: 15px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 10px 10px;
+  
+}
+
+
+
+
+
+p {
+    font-size: 18px;
+	font-weight: bold;
+	}
+	
+.leadin {
+    background-color: #000000;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;	
+	padding: 5px;
+	text-align: center;
+}
+
+
+.dog {
+    
+	font-size: 12px;
+	font-weight: bold;
+	color: green;	
+	padding: 2px;
+	text-align: center;
+}
+
+
+h1 {
+  text-align: center;
+   background-color: #278183;
+   font-size: 22px;
+	font-weight: bold;
+	font-family: "arial";
+	color: white;	
+	padding: 8px;
+}
+
+h2 {
+  color: red;
+  text-align: center;
+  text-align: left;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+
+h3 {
+    font-weight: bold;
+	font-size: 18px;
+    color: black;
+	font-family: "arial";
+}
+
+
+h4 {
+    font-size: 16px;
+    color: black;	
+	font-family: "arial";
+	font-weight: bold;
+	text-align: center;
+	
+	}
+
+
+h5 {
+    font-size: 14px;
+    color: black;	
+	font-family: "arial";
+	font-weight: bold;
+	 text-align: left;
+	}
+	
+	
+h6 {
+  color: #000000;
+   text-align: left;
+	font-weight: bold;
+	font-family: "arial";
+	font-size: 18px;
+		}
+	
+	
+
+
+
+
+a:link {
+  color: #008000;
+  font-weight: bold;
+   padding: 5px;
+  
+}
+
+/* visited link */
+a:visited {
+  color: #008080;
+  font-weight: bold;
+   padding: 5px;
+  
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+  font-weight: bold;
+   padding: 5px;
+  
+}
+
+/* selected link */
+a:active {
+  color: blue;
+   padding: 5px;
+ 
+}
+
+box.demo
+
+
+
+ul.a {
+  list-style-type: circle;
+  font-size: 12px;
+	font-weight: bold;
+	font-family: "arial";
+	 text-align: left;
+}
+
+
+
+
+
