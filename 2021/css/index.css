@@ -28,6 +28,7 @@ body {
 
 
 .item1 { grid-area: header;}
+.item11 { grid-area: row1a;}
 .item2 { grid-area: row2; }	
 .item3 { grid-area: row3a; }
 .item4 { grid-area: row3b; }
@@ -37,12 +38,6 @@ body {
   .item8 { grid-area: row4c;}
 .item9 { grid-area: row5a;}
 .item10 { grid-area: row5b;}
-.item11 { grid-area: row1a;}
-.item12 { grid-area: row1b;}
-.item13 { grid-area: row1c;}
-.item14 { grid-area: row1d;}
-.item15 { grid-area: row1e;}
-.item16 { grid-area: row1f;}
 .item17 { grid-area: row6a;}
 .item18 { grid-area: row6b;}
 .item19 { grid-area: row7a;}
