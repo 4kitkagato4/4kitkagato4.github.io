@@ -28,7 +28,8 @@ body {
 
 
 .item1 { grid-area: header;}
-.item11 { grid-area: row1a;}
+.item11 { grid-area: row1a;
+        background-color: white; }
 .item2 { grid-area: row2; }	
 .item3 { grid-area: row3a; }
 .item4 { grid-area: row3b; }
