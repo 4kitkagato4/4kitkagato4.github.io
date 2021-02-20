@@ -27,10 +27,8 @@ body {
 	}
 
 
-.item1 { grid-area: header;
-    	font-family: "arial"; }
-	.item2 { grid-area: row2;
-    	font-family: "arial"; }	
+.item1 { grid-area: header;}
+.item2 { grid-area: row2; }	
 .item3 { grid-area: row3a; }
 .item4 { grid-area: row3b; }
  .item5 { grid-area: row3c;}
