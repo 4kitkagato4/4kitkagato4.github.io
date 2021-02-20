@@ -30,19 +30,32 @@ body {
 .item1 { grid-area: header;}
 .item11 { grid-area: row1a;
         background-color: white; }
-.item2 { grid-area: row2; }	
-.item3 { grid-area: row3a; }
-.item4 { grid-area: row3b; }
- .item5 { grid-area: row3c;}
-  .item6 { grid-area: row4a;} 
-  .item7 { grid-area: row4b;}
-  .item8 { grid-area: row4c;}
-.item9 { grid-area: row5a;}
-.item10 { grid-area: row5b;}
-.item17 { grid-area: row6a;}
-.item18 { grid-area: row6b;}
-.item19 { grid-area: row7a;}
-.item20 { grid-area: row7b;}
+.item2 { grid-area: row2;
+        background-color: white; }	
+.item3 { grid-area: row3a;
+        background-color: white; }
+.item4 { grid-area: row3b;
+         background-color: white;}
+ .item5 { grid-area: row3c;
+         background-color: white;}
+  .item6 { grid-area: row4a;
+        background-color: white; } 
+  .item7 { grid-area: row4b;
+        background-color: white; }
+  .item8 { grid-area: row4c;
+        background-color: white; }
+.item9 { grid-area: row5a;
+         background-color: white;}
+.item10 { grid-area: row5b;
+         background-color: white;}
+.item17 { grid-area: row6a;
+         background-color: white;}
+.item18 { grid-area: row6b;
+         background-color: white;}
+.item19 { grid-area: row7a;
+         background-color: white;}
+.item20 { grid-area: row7b;
+         background-color: white;}
 
 h1 {
   text-align: center;
