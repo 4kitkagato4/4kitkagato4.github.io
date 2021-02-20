@@ -1,0 +1,125 @@
+/* All original css code modifed by james Albert from w3schools.com */
+
+.grid-container {
+  display: grid;
+  grid-gap: 12px;
+  background-color: white;
+  padding: 15px;
+  text-align: left;
+  grid-template-areas:
+    'header header header header header header'
+	'row1a row1a row1a row1a row1a row1a'
+	'row2 row2 row2 row2 row2 row2'
+	'row3a row3b row3b row3c row3c row3c'
+	'row4a row4a row4b row4b row4c row4c'
+	'row5a row5a row5a row5b row5b row5b'
+	'row6a row6a row6b row6b row6b row6b'
+	'row7a row7a row7a row7a row7b row7b'
+    }
+body {
+  background-color: white;
+  }
+  
+  p {font-family: "arial";
+    font-size: 15px;
+	font-weight: bold;
+	font-color: black;
+	}
+
+
+.item1 { grid-area: header;
+    	font-family: "arial"; }
+	.item2 { grid-area: row2;
+    	font-family: "arial"; }	
+.item3 { grid-area: row3a; }
+.item4 { grid-area: row3b; }
+ .item5 { grid-area: row3c;}
+  .item6 { grid-area: row4a;} 
+  .item7 { grid-area: row4b;}
+  .item8 { grid-area: row4c;}
+.item9 { grid-area: row5a;}
+.item10 { grid-area: row5b;}
+.item11 { grid-area: row1a;}
+.item12 { grid-area: row1b;}
+.item13 { grid-area: row1c;}
+.item14 { grid-area: row1d;}
+.item15 { grid-area: row1e;}
+.item16 { grid-area: row1f;}
+.item17 { grid-area: row6a;}
+.item18 { grid-area: row6b;}
+.item19 { grid-area: row7a;}
+.item20 { grid-area: row7b;}
+
+h1 {
+  text-align: center;
+   background-color: #000000;
+   font-size: 18px;
+	font-weight: bold;
+	font-family: "arial";
+	color: white;	
+	padding: 4px;
+}
+
+
+a:link {
+  color: #1905FA;
+  font-weight: bold;
+   padding: 5px;
+  
+}
+
+/* visited link */
+a:visited {
+  color: #4F180E;
+  font-weight: bold;
+   padding: 5px;
+  
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF0003;
+  font-weight: bold;
+   padding: 5px;
+  
+}
+
+/* selected link */
+a:active {
+  color: #1905FA;
+   padding: 5px;
+ 
+}
+
+#movies {
+  font-family: "Arial", Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#movies td, #movies th {
+  border: 1px dotted #000000;
+  padding: 5px;
+}
+
+#movies tr:nth-child(even){background-color: #ffffff;}
+
+#movies tr:hover {background-color: #FFFD04;}
+
+#movies th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+
+.button3:focus {
+  /* Inverts the colors */
+  background: #FFFFFF;
+  color: #590CE5;
+
+
+
+
+
