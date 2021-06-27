@@ -164,6 +164,101 @@ img {
 
 
 /* Create two unequal columns that sits next to each other */
+
+.box1 {
+  flex: 35%;
+  background-color: #ffffff;
+  padding: 5px;
+  border: 1px dotted #ffffff;
+}
+
+.box2 {
+  flex: 35%;
+  background-color: #ffffff;
+  padding: 15px;
+  
+}
+
+.box3 {
+  flex: 30%;
+  background-color: #fffff;
+  padding: 5px;
+  
+}
+
+.box4 {
+  flex: 22%;
+  background-color: #ffffff;
+  padding: 5px;
+  
+}
+
+.box5 {
+  flex: 22%;
+  background-color: #ffffff;
+  padding: 5px;
+  
+}
+
+.box6 {
+  flex: 22%;
+  background-color: #ffffff;
+  padding: 5px;
+  
+}
+
+.box7 {
+  flex: 22%;
+  background-color: #fffff;
+  padding: 15px;
+  
+}
+
+
+.box4a {
+  flex: 11%;
+  background-color: #ffffff;
+  padding: 5px;
+  
+}
+
+.box5a {
+  flex: 11%;
+  background-color: #ffffff;
+  padding: 5px;
+  
+}
+
+.box6a {
+  flex: 11%;
+  background-color: #ffffff;
+  padding: 5px;
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Sidebar/left column */
 .side {
   flex: 33%;
