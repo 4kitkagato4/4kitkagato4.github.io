@@ -68,6 +68,20 @@ function carousel() {
  
  <p><h4>The following is the workflow completed to complete the entire project</h4> <p> </p>
  
+ <h4>
+ Our client provided us with a dataset (including floor plans and fire safety features) that had been created in 2015.<p> One of our tasks was to update the dataset to reflect newly built or renovated buildings from the past 6 years.
+Process of updating the data to present levels:<p><p>
+
+1. Start with digital technical drawings (AutoCAD format) of each building floor.<p>
+2. Georeference the drawings ("teach" them where they are in the world, including their size and the direction they're facing).<p>
+3. Convert the drawings (using FME software) to feature classes (a format that can be manipulated in GIS software).<p>
+4. In ArcGIS Pro (GIS software), fill in the attribute (information) table for each building floor.<p> This information includes room numbers and room types for the floor plans, and type of fire safety equipment at each location in the fire safety layer. <p>
+5. Combine the new building floors together into one data "layer"<p>
+6. Merge the new data with the existing data (including deleting data that is being replaced).<p>
+7. Upload the updated data to ArcGIS Online. </h4>
+ 
+ 
+ 
  <img src="images/methodsummary.png" alt="Methodology">
  
  
